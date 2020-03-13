@@ -37,7 +37,7 @@ const getCOVID19 = async () => {
     return { cantidad }
   } catch (error) {
     console.log(error.message)
-    return { cantidad: 0 }
+    return { cantidad: -1, mensaje: error.message }
   }
 }
 
