@@ -1,4 +1,4 @@
-# Cotización del Dólar
+# COVID19-PY
 
 > Sistema que extrae del sitio web del MSPBS la cantidad de personas confirmadas con COVID19.
 
