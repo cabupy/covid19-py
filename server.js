@@ -63,6 +63,7 @@ var server = http.createServer(app).listen(port, ip, function() {
       server.address().port
     }`
   )
+  console.timeEnd('Arrancamos el server en')
 })
 
 process.on('unhandledRejection', (reason, p) => {
