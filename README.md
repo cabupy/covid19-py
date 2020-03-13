@@ -8,6 +8,7 @@
 $ git clone https://github.com/cabupy/covid19-py.git
 $ cd covid19-py
 $ npm install
+$ nodemon server
 ```
 ### DOTENV
 
