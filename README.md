@@ -19,6 +19,19 @@ Utilizamos un archivo .env para configurar las variables de entorno process.env.
 IP=localhost
 PORT=45500
 ```
+
+### If you Fork repo covid19-py.git
+
+En caso de que hagan un `Fork` del repositorio, con estos pasos lo pueden
+mantener actualizado. Y así tambien colaborar con el proyecto y enviar sus `PRs`. 
+
+```bash
+git remote add upstream https://github.com/cabupy/covid19-py.git
+git fetch upstream
+git checkout master
+git merge upstream/master
+git push
+```
 ### Autor:
 
 - `Cabu Vallejos`
