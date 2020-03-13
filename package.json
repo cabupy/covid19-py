@@ -1,0 +1,28 @@
+{
+  "name": "covid19-py",
+  "version": "1.0.0",
+  "description": "Web Scraping MSPBS COVID19",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "useTabs": false,
+    "singleQuote": true,
+    "bracketSpacing": true
+  },
+  "keywords": [
+    "covid19",
+    "mspbs",
+    "paraguay"
+  ],
+  "author": "Cabu Vallejos",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2"
+  }
+}
