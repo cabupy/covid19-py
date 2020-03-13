@@ -5,10 +5,11 @@
 ### Como se instala ?
 
 ```bash
-$ git clone https://github.com/cabupy/covid19-py.git
-$ cd covid19-py
-$ npm install
-$ nodemon server
+git clone https://github.com/cabupy/covid19-py.git
+cd covid19-py
+npm install
+touch .env
+nodemon server
 ```
 ### DOTENV
 
