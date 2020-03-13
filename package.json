@@ -25,6 +25,9 @@
   ],
   "author": "Cabu Vallejos",
   "license": "MIT",
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cheerio": "^1.0.0-rc.3",
